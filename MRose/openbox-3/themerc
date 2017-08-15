@@ -1,0 +1,129 @@
+# MRose Theme
+# by Luiz F. Nunes
+
+#Sizes
+border.width: 1
+menu.border.width: 1
+menu.separator.width: 1
+menu.separator.padding.width : 8
+menu.separator.padding.height: 8
+osd.border.width: 4
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 4
+padding.width: 5
+padding.height: 5
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+#Border Colors Active
+window.active.border.color: #E63880
+window.active.title.separator.color: #E63880
+
+#Border Colors Inactive
+window.inactive.border.color: #EACEDA
+window.inactive.title.separator.color: #EACEDA
+
+#Client Colors
+window.active.client.color: #E63880
+window.inactive.client.color: #EACEDA
+
+#Other colors
+menu.border.color: #E63CEDA
+osd.border.color: #E63CEDA
+
+#Title Colors
+window.active.label.text.color: #FFFFFF
+window.inactive.label.text.color: #FFFFFF
+window.active.button.unpressed.image.color: #EACEDA
+window.active.button.pressed.image.color: #FFFFFF
+window.active.button.disabled.image.color: #FFFFFF
+window.active.button.hover.image.color: #FFFFFF
+window.active.button.toggled.unpressed.image.color: #FFFFFF
+window.active.button.toggled.pressed.image.color: #FFFFFF
+window.active.button.toggled.hover.image.color: #EACEDA
+window.inactive.button.unpressed.image.color: #FFFFFF
+window.inactive.button.pressed.image.color: #FFFFFF
+window.inactive.button.disabled.image.color: #FFFFFF
+window.inactive.button.hover.image.color: #E75B93
+window.inactive.button.toggled.unpressed.image.color: #FFFFFF
+window.inactive.button.toggled.pressed.image.color: #FFFFFF
+window.inactive.button.toggled.hover.image.color: #E75B93
+
+#Colors Active Window
+window.active.title.bg: Gradient Vertical Bevel
+window.active.title.bg.color: #E75B93
+window.active.title.bg.colorTo: #E63880 
+window.active.label.bg: Parentrelative
+window.active.handle.bg: Gradient Vertical flat
+window.active.handle.bg.color: #E63880
+window.active.handle.bg.colorTo: #E75B93
+window.active.grip.bg: solid flat
+window.active.grip.bg.color: #E75B93
+
+#Colors Inactive Window
+window.inactive.title.bg: solid flat
+window.inactive.title.bg.color: #EACEDA
+window.inactive.label.bg: Parentrelative
+window.inactive.handle.bg: solid flat
+window.inactive.handle.bg.color: #EACEDA
+window.inactive.grip.bg: solid flat
+window.inactive.grip.bg.color: #EACEDA
+
+#Colors Active Buttons
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.pressed.bg: Parentrelative
+window.active.button.hover.bg: Parentrelative
+window.active.button.disabled.bg: Parentrelative
+window.active.button.toggled.unpressed.bg: Parentrelative
+window.active.button.toggled.pressed.bg: Parentrelative
+window.active.button.toggled.hover.bg: Parentrelative
+
+#Colors Inactive Buttons
+window.inactive.button.unpressed.bg: ParentRelative
+window.inactive.button.pressed.bg: ParentRelative
+window.inactive.button.hover.bg: ParentRelative
+window.inactive.button.disabled.bg: ParentRelative
+window.inactive.button.toggled.unpressed.bg: ParentRelative
+window.inactive.button.toggled.pressed.bg: ParentRelative
+window.inactive.button.toggled.hover.bg: ParentRelative
+
+#Menu
+menu.title.text.color: #FFFFFF
+menu.items.text.color: #FFFFFF
+menu.items.disabled.text.color: #EACEDA
+menu.items.active.text.color: #E63880
+menu.items.active.disabled.text.color: #EACEDA
+menu.separator.color: #EACADA
+
+#Menu colors
+menu.items.bg: solid bevel
+menu.items.bg.color: #E75b93
+menu.items.active.bg: Gradient Vertical bevel
+menu.items.active.bg.color: #EACEDA
+menu.items.active.bg.colorTo: #E75B93
+menu.title.bg: solid Gradient Vertical Bevel
+menu.title.bg.color: #E75B93
+menu.title.bg.colorTo: #E63880
+
+#OSD
+osd.bg: solid flat
+osd.bg.color: #EACEDA
+osd.label.bg: solid flat
+osd.label.bg.color: #EACEDA
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #000000
+osd.unhilight.bg: solid flat
+osd.unhilight.bg.color: #FF0000
+osd.label.text.color: #ffffff
+
+#Justification
+window.label.text.justify: Center
+menu.title.text.justify: Center
+
+#Shadows
+window.active.label.text.font: shadow=y:shadowint=70:shadowoffset=1 
+window.inactive.label.text.font: no shadow
+menu.items.font: shadow=y:shadowint=70:shadowoffset=1
+menu.title.text.font: shadow=y:shadowint=70:shadowoffset=1
+osd.label.text.font: shadow=y:shadowint=70:shadowoffset=1
